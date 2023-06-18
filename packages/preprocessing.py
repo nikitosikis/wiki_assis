@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import spacy
 
-
+spacy.cli.download("en_core_web_lg")
 nlp = spacy.load('en_core_web_lg')
 
 def strip_html_tags(text):

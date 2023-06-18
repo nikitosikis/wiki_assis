@@ -1,7 +1,7 @@
 # CONFIG FILE
 
 # required parameters
-TOKEN  = "<YOUR TOKEN>"     # Telegrambot API Token
+TOKEN  = "6130304584:AAF7WZSCBDcE8vIb1jcDjXL8MJryctvisjY"     # Telegrambot API Token
 
 
 # optional parameters

@@ -9,6 +9,9 @@ from packages import db_manager, messages
 from packages.networks import *
 import config
 
+import spacy
+from spacy.lang.en.examples import sentences
+
 # argparsing
 argparser = argparse.ArgumentParser(description='Wiki assistant')
 argparser.add_argument("--token", type=str, default=config.TOKEN)
